@@ -14,7 +14,7 @@ const Login = () => {
 
         try {
             await account.createEmailSession(user.email , user.password)
-            navigate("/blog/profile")
+            navigate("/profile")
         } catch (error) {
             console.log(error)
         }
@@ -54,7 +54,7 @@ const Login = () => {
                 </div>
                  <button onClick={loginUser} className='w-full mt-7 rounded-md bg-red-800 border-none text-white font-bold p-2'>Login</button>
               <div className='text-white p-2 font-bold'>
-                Dont have an Account? <NavLink className='cursor-pointer' to='/blog/signup'>Sign Up</NavLink>
+                Dont have an Account? <NavLink className='cursor-pointer' to='/signup'>Sign Up</NavLink>
               </div>
             </div>
             <div>
