@@ -25,7 +25,7 @@ const Signup = () => {
     promise.then(
       function(response){
         console.log(response)
-        navigate("/profile")  //success
+        navigate("/blog/profile")  //success
       },
       function(error){
         console.log(error)
