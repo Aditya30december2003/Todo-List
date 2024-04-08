@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Patrick+Hand&display=swap');
+
+
+body{
+    background: #46211A;
+    
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.card{
+    background:#F1D3B2;
+    color: #A43820;
+}
+
+.medium{
+    background: #A43820;
+}
+.light{
+    background: #F1D3B2;
+}
+.heading{
+    color: #A43820;
+}
+.text{
+    color: #F1D3B2;
+}
+.cross{
+    background: #380c02;
+}

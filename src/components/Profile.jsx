@@ -37,12 +37,12 @@ const Profile = () => {
     <>
     {userDetails ? (
     <>
-    <div className='flex bg-purple-300 justify-between items-center mx-auto w-[80%] mt-5 p-2'>
+    <div className='flex justify-between items-center mx-auto w-[95%] lg:w-[80%] mt-5 p-2'>
         <div>
-            <h1 className='text-white font-bold'>Hello {userDetails.name}</h1>
+            <h1 className='text-white font-bold text-[1.5rem]'>Hello {userDetails.name}</h1>
         </div>
         <div onClick={handleLogout}>
-            <button className='font-bold text-white bg-purple-500 rounded-md p-2'>Logout</button>
+            <button className='font-bold text-white card rounded-md p-2'>Logout</button>
         </div>
     </div>
 
