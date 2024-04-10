@@ -78,7 +78,6 @@ const Signup = () => {
             </div>
             </form>
         </div>
-        <img className='w-full h-full object-cover' src="" alt="" />
     </div>
 
     </div>
